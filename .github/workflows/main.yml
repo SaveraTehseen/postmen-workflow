@@ -39,4 +39,4 @@ jobs:
 
              # Runs a single command using the runners shell
       - name: run-newmen
-        run: run newmen /Books.postman_collection.json -e /test.postman_environment.json
+        run: run newmen \Books.postman_collection.json -e \test.postman_environment.json
